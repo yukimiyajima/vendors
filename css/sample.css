@@ -9,7 +9,7 @@ body {
   padding-bottom: 15%;
   width: 100%;
   background-size: cover;
-  background-image: url("/vendors/images/header.jpg");
+  background-image: url("./vendors/images/header.jpg");
   background-attachment: fixed;
   height: 200px;
 }
@@ -50,22 +50,41 @@ padding: 10px;
 .function {
   background: #B1B1B1;
 }
-
+.function .function_inner .function-images {
+  background: #B1B1B1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+  margin-bottom: 3rem;
+}
 .function-images {
   width: 1120px;
   margin: auto;
 }
-
 .function-image {
   float: left;
   padding:30px 75px;
 }
 /* ここまでがfunction部分の実装 */
-
-
 footer {
-/* footer部分の実装 */
-position: absolute;
-bottom: 0;
-background-color:#708090;
+  width: 100%;
+  height: auto;
+  background: #2c3d4f;
+  position: absolute;
+  bottom: 0;
+}
+footer .footer_inner {
+  padding: 2rem;
+}
+footer .footer_inner p {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #fff;
+}
+footer .footer_inner p:first-child {
+  margin-bottom: 0.2rem;
 }
