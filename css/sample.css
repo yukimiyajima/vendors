@@ -6,12 +6,7 @@ body {
   text-align: center;
 }
 .main-header {
-  padding-bottom: 15%;
-  width: 100%;
-  background-size: cover;
-  background-image: url("./vendors/images/header.jpg");
-  background-attachment: fixed;
-  height: 200px;
+  background-image: url("../images/header.jpg");
 }
 /* ここから */
 header {
